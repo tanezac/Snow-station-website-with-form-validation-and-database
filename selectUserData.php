@@ -7,7 +7,7 @@
 		$stmt = $conn->prepare("SELECT userName, password, firstName, lastName, address1,address2, 
                           city, state, zipCode, phone, email, gender, maritalStatus,dateOfBirth".
 		" FROM registration WHERE id = :last_id");
-		$stmt->bindParam(':last_id', $var);
+		$stmt->bindParam(':last_id', $last_id);
 		$stmt->execute();
 
 		// set the resulting array to associative
