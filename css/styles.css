@@ -1,0 +1,23 @@
+table {
+	width:100%;
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#firstUL {
+	list-style-type: circle;
+}
+
+#secondUL {
+	list-style-type: square;
+}
+
+#thirdUL {
+	list-style-type: disc;
+}
+

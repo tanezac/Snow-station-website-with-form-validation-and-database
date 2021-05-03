@@ -1,0 +1,181 @@
+/* Stylesheet 1: */
+/* A CSS rule-set consists of a selector and a declaration block */
+/* selector body selects all <body> tags in the HTML */
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 26px;
+}
+.body1{
+    background-color: black;
+}
+.wrapper {
+    overflow: auto;
+    position: relative;
+}
+
+
+
+/* use commas (,) to create a rule with grouped selectors */
+#bottom, .menuitem {
+    border-radius: 12px;
+    margin: 6px;
+}
+
+/* selector #top selects the tag in the HTML with id="top" */
+#top {
+    border-radius: 4px;
+    margin-top: auto;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    background-image: url("../img/winner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: auto;
+    line-height: 195px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#sidebar {
+    background-color: #5dadc8;
+    color: #ffffff;
+    padding: 10px;
+    width: 201px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+#sidebar1 {
+    background-color: #5dadc8;
+    color: #ffffff;
+    padding: 10px;
+    width: 201px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+#main_test {
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 6px;
+    margin-bottom: 0;
+    margin-left: 315px;
+}
+
+#main {
+    padding: 10px;
+    margin: 0 286px;
+}
+
+#main1{
+    padding: 10px;
+    margin: 5px 9px;
+}
+
+
+#bottom {
+    border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+
+}
+
+#top h1, #top p #menu_list {
+    margin: 0;
+    padding: 0;
+}
+#menubar {
+    width: 300px;
+    text-align: center;
+    float: left;
+}
+#menu_list
+{
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem {
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 2px;
+    cursor: pointer;
+    width: 268px;
+    height: 42px;
+    font-size: 24px;
+    margin-top: 14px;
+    border: 1px solid black;
+
+}
+
+.menuitem_1:hover {
+    background-color: #5dadc8;
+    color: white;
+
+}
+
+.menuitem_1 {
+    background-color: #5dadc8;
+    color: white;
+    font-weight:bold;
+}
+
+
+
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+@media (max-width: 800px) {
+    #sidebar {
+        width: auto;
+        position: relative;
+    }
+    #main {
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+    #menubar {
+        width: auto;
+        float: none;
+    }
+    #main {
+        margin: 0;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+    body {
+        background: #e7e7e7;
+    }
+}
+.zoom{
+    zoom: 200%;
+}
+
+.tableConfirm{
+    position: relative;
+    margin-top: 34px;
+    width: 84%;
+}

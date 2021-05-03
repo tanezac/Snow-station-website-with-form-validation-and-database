@@ -1,0 +1,23 @@
+.red {
+    outline: 1px solid red;
+}
+
+.green {
+    outline: 1px solid green;
+}
+.tick {
+    background: url(/img/check_mark.jpg) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 5px 20px;
+    display: none;
+}
+.error{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    left: 6px;
+
+}
