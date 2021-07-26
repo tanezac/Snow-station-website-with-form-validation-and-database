@@ -349,7 +349,7 @@
                 <!-- Float links to the right. Hide them on small screens -->
                 <div class="w3-right w3-hide-small">
                     <a href="home_page.php" class="w3-bar-item w3-button" >Home</a>
-                    <a href="registration.php" class="w3-bar-item w3-button">Registration</a>
+                    <a href="pdo.php" class="w3-bar-item w3-button">Registration</a>
                     <a href="animation_snow.php" class="w3-bar-item w3-button">Animations</a>
                 </div>
             </div>
